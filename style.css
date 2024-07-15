@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(to right, #24C6DC, #514A9D)  ;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.a{
+    width: 470px;
+    height: 680px;
+    background-color:wheat;
+    border: #24C6DC;
+    margin: 150px auto;
+    border-radius: 20px;
+    padding: 10px;
+    box-shadow:  palegoldenrod
+}
+#buttons{
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+}
+button{
+    border: none;
+    color: white;
+    border-radius: 50px;
+    padding: 28px 30px;
+    width: 22%;
+    margin: 10px 6px;
+    font-size: 20px;
+    background-color: rgba(128, 128, 128, 0.372);
+}
+#result{
+    background-color: aquamarine;
+}
+#num1{
+    width:450px ;
+    height:60px ;
+    border: 2px solid;
+}
+#num2{
+    width:450px ;
+    height:60px ;
+    border: 2px solid;
+    border-radius: 50px 50px 20px px ;
+}
+
